@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Bungee Spice', cursive;
+    
+}
+body{
+    background-color: aqua;
+}
+nav{
+    height:40px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.gamecontainer{
+    height:20vh;
+    background-color: yellowgreen;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.info{
+padding-bottom: 10vh;
+padding-right: 10vh;
+font-size: 2rem;
+}
+#button{
+    position:absolute;
+    left:50%;
+    padding-bottom: 4vh;
+    padding-right: 4vh;
+    font-size: 2rem;
+    border:none;
+    background-color: rgb(218, 227, 227);
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 40px;;
+
+}
+#button:hover{
+    background-color: blanchedalmond;
+}
+.container{
+    position:absolute;
+    top:45%;
+    left:40%;
+    display:grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+.box{
+    border:2px solid black;
+    font-size: 8vw;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+}
+.box :hover{
+    background-color: blue;
+}
